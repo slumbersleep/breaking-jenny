@@ -30,7 +30,8 @@ const nextConfig: NextConfig = {
         loaders: [loaderPath]
       }
     }
-  }
+  },
+  allowedDevOrigins: ['*.orchids.page'],
 } as NextConfig;
 
 export default nextConfig;

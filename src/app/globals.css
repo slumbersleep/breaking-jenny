@@ -41,6 +41,9 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
 }
 
 :root {
@@ -120,8 +123,7 @@
     @apply bg-background text-foreground;
   }
 }
-
-/* Hide Next.js error overlay portal */
+/* Hide Next.js dev indicator portal */
 nextjs-portal {
   display: none !important;
 }
